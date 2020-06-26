@@ -214,7 +214,7 @@ body {
   list-style: none;
 }
 
-.linksFooter  a {
+.linksFooter a {
   text-decoration: none;
   color: white;
   padding: 0px 10px;
@@ -233,7 +233,7 @@ body {
 .links li a:focus {
   text-decoration: none;
   color: #e56302;
-  font-size: 14px;
+  font-size: 15px;
   transition: 0.4s all;
 }
 
@@ -258,8 +258,9 @@ body {
   margin: 10px 0px;
   background-color: white;
 }
+
 .colorFooter {
-  background-color: slategray;
+  background-color: #939393;
   width: 100%;
   padding: 80px 0px;
 }
@@ -296,21 +297,25 @@ body {
 .spaceDetails {
   margin-top: 30px;
 }
-.spaceInput{
+
+.spaceInput {
   display: flex;
 }
-.tituloSuscripción{
+
+.tituloSuscripción {
   font-family: 'gotham_medium';
   font-size: 16px;
   color: white;
 }
-.inputSuscripcion{
+
+.inputSuscripcion {
   padding: 15px 5px;
-  border:0;
+  border: 0;
   font-family: 'gotham_bold';
   font-size: 16px;
 }
-.btnSuscripcion{
+
+.btnSuscripcion {
   background-color: #dfdfdf;
   width: 49px;
   height: 49px;
@@ -319,27 +324,31 @@ body {
   border: 0;
   outline: none;
 }
-.playIcon{
+
+.playIcon {
   margin: auto;
   width: 16px;
 }
-.redes-sociales{
+
+.redes-sociales {
   display: flex;
   color: white;
   font-family: 'gotham_book';
   margin-top: 20px;
 }
-.redes-sociales li{
+
+.redes-sociales li {
   list-style: none;
   float: left;
   margin-left: 8px;
 }
 
 /*Inicio*/
-.bannerSection{
+.bannerSection {
   width: 100%;
 }
-.contentTitlePage{
+
+.contentTitlePage {
   background-color: rgba(246, 246, 240, 0.9);
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -347,99 +356,115 @@ body {
   position: absolute;
   z-index: 98;
 }
-.tituleBannerPage h1{
+
+.tituleBannerPage h1 {
   margin: 0;
   color: black;
   font-family: 'gotham_bold';
   font-size: 49px;
 }
-.descripcionBannerPage{
+
+.descripcionBannerPage {
   font-family: 'poppins_regular';
-  font-size: 19px;
+  font-size: 16px;
   margin: 15px 0px;
   line-height: 25px;
 }
-.positionLeerMas{
+
+.positionLeerMas {
   padding: 20px 0px;
 }
-.btnLeerMas{
+
+.btnLeerMas {
   padding: 15px 30px;
   color: black;
   border: 1px solid #ffa700;
-  font-size: 19px;
+  font-size: 16px;
   font-family: 'gotham_book';
   border-radius: 10px;
   text-decoration: none;
   outline: none;
 }
-.btnLeerMas:focus,.btnLeerMas:hover {
+
+.btnLeerMas:focus,
+.btnLeerMas:hover {
   padding: 15px 30px;
   color: black;
   border: 1px solid #ffa700;
-  font-size: 19px;
+  font-size: 16px;
   font-family: 'gotham_book';
   border-radius: 10px;
   text-decoration: none;
   outline: none;
 }
-.bannerIMG{
+
+.bannerIMG {
   width: 100%;
   border-radius: 25px;
 }
-.redes-sociales-home{
+
+.redes-sociales-home {
   float: right;
   display: flex;
   color: black;
   font-family: 'gotham_book';
-  margin-top: 20px;
   font-size: 19px;
 }
-.redes-sociales-home li{
+
+.redes-sociales-home li {
   list-style: none;
   float: left;
   margin-left: 25px;
 }
-.seccion2Home{
+
+.seccion2Home {
   background-color: #f3f3e8;
   height: auto;
   margin-bottom: 100px;
 }
-.seccion2HomeBackground{
+
+.seccion2HomeBackground {
   background-image: url('../img/seccion2.jpg');
   background-size: cover;
   height: 420px;
   position: relative;
   z-index: 1;
 }
-.noticiaDestacada{
+
+.noticiaDestacada {
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 20px;
 }
-.topNoticiaDestacada{
+
+.topNoticiaDestacada {
   text-align: center;
 }
-.positionNoticaDestacada{
+
+.positionNoticaDestacada {
   margin-top: -400px;
   position: relative;
   z-index: 2;
 }
-.titleTopNoticia{
+
+.titleTopNoticia {
   color: white;
   font-size: 27px;
   font-family: 'gotham_medium';
   margin-top: 15px;
   margin-bottom: 20px;
 }
-.pictureNoticiaDestacada{
-  background-image: url('../img/not_dest_1.jpg');
+
+.pictureNoticiaDestacada {
+  background-image: url('../img/home/not_dest.jpg');
   height: 500px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-.titleNoticiaDestacada{
+
+.titleNoticiaDestacada {
   color: white;
   font-family: 'gotham_bold';
   font-size: 40px;
@@ -449,59 +474,85 @@ body {
   width: 75%;
 }
 
-.fechaNoticiaDestacada{
+.fechaNoticiaDestacada {
   color: #8b8b8b;
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'gotham_medium';
-  margin:18px 0px;
+  margin: 15px 0px;
 }
-.detalleNoticiaDestacada{
-  color:black;
+
+.pictureNoticia{
+  margin-bottom: 40px;
+}
+
+.detalleNoticiaDestacada {
+  color: black;
   font-family: 'gotham_book';
-  font-size: 19px;
+  font-size: 16px;
   text-align: justify;
   line-height: 25px;
 }
-.linkNoticiaDestacada{
+
+.linkNoticiaDestacada {
   text-align: right;
   margin: 15px 0px;
 }
-.masNoticias{
+
+.masNoticias {
   margin: 20px 0px;
 }
-.listaNoticias{
+
+.listaNoticias {
   margin-bottom: 50px;
 }
-.noticia{
+
+.noticia {
   margin: auto;
   max-width: 380px;
+  transition: 0.4s all;
 }
-.titleMasNoticias{
+
+.noticia a {
+  text-decoration: none;
+}
+
+.titleMasNoticias {
   color: #ca8120;
   font-family: 'gotham_bold';
   font-size: 27px;
   text-align: center;
 }
-.img-noticia{
+
+.img-noticia {
   width: 100%;
+  margin: auto;
 }
-.tituloNoticia{
+
+.tituloNoticia {
   font-family: 'montserrat_bold';
-  font-size: 25px;
-  margin-top: 20px
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 20px;
+  color: black;
+  height: 80px;
+  overflow: hidden;
+  word-break: break-word;
+  text-overflow: ellipsis;
 }
-.linkNoticia{
+
+.linkNoticia {
   margin: 50px 0px 40px 0px;
 }
 
 
-.seccion3Home{
+.seccion3Home {
   background-image: url('../img/banner2.jpg');
   height: 420px;
   background-position: center;
   background-size: cover;
 }
-.contentSeccion3{
+
+.contentSeccion3 {
   text-align: center;
   position: relative;
   top: 50%;
@@ -509,46 +560,64 @@ body {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.titleSeccion3{
+
+.titleSeccion3 {
   color: white;
   font-size: 39px;
   font-family: 'gotham_bold';
 }
-.textoSeccion3{
+
+.textoSeccion3 {
   color: white;
   font-size: 16px;
   font-family: 'gotham_book';
-  margin:10px 0px;
+  margin: 10px 0px;
   padding: 0px 5%;
 }
-.btnSeccion3{
-  margin:20px 0px ;
+
+.btnSeccion3 {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
 }
-.btnUnete{
-  border:0;
+
+.btnUnete {
+  border: 0;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'gotham_medium';
   padding: 15px 30px;
-  border-radius: 25px;
-  background: linear-gradient(90deg, rgba(251,162,32,1) 0%, rgba(251,162,32,1) 41%, rgba(249,85,53,1) 58%);
+  cursor: pointer;
+  border-radius: 0px 25px 25px 0px;
+  background: linear-gradient(90deg, rgba(251, 162, 32, 1) 0%, rgba(251, 162, 32, 1) 41%, rgba(249, 85, 53, 1) 58%);
+}
+.inputSuscribe{
+  padding: 15px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 25px 0px 0px 25px;
+  border: 0;
+  margin-right: -4px;
+  font-family: 'gotham_book';
 }
 
 /*Medias Querys*/
 @media (min-width: 320px) {
 
-.npMovil{
-  padding: 0px 15px;
-}
+  .npMovil {
+    padding: 0px 15px;
+  }
+
   #linksHeaderChange {
     display: flex;
     align-items: center;
   }
 
-  .headerSpace{
+  .headerSpace {
     padding: 15px 0px;
   }
-  .headerSpaceC{
+
+  .headerSpaceC {
     padding: 10px 0px;
   }
 
@@ -579,49 +648,55 @@ body {
     align-items: center;
     justify-content: center;
   }
-.contentSuscripcion{
-  justify-content: center;
-  /* align-items: center; */
-  display: grid;
-  text-align: center;
-}
-.alineacionLinks{
-  text-align: center;
-  margin-bottom: 20px;
-}
-.displayLogoFooter {
-  display: grid;
-  justify-content: center;
-}
 
-.contentTitlePage{
-  position: relative;
-  padding: 250px 15px 40px 15px;
-}
+  .contentSuscripcion {
+    justify-content: center;
+    /* align-items: center; */
+    display: grid;
+    text-align: center;
+  }
 
-.tituleBannerPage h1{
-  font-size: 36px;
-}
-.descripcionBannerPage{
-  font-size: 16px;
-}
-.btnLeerMas{
-  font-size: 16px;
-}
-.nContainer{
-  padding:20px 0px;
+  .alineacionLinks {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-}
+  .displayLogoFooter {
+    display: grid;
+    justify-content: center;
+  }
 
-.redes-sociales-home li{
-  list-style: none;
-  float: left;
-  margin-left: 11px;
-}
+  .contentTitlePage {
+    position: relative;
+    padding: 250px 15px 40px 15px;
+  }
 
-.textoSeccion3{
-  padding: 0px 5%;
-}
+  .tituleBannerPage h1 {
+    font-size: 36px;
+  }
+
+  .descripcionBannerPage {
+    font-size: 16px;
+  }
+
+  .btnLeerMas {
+    font-size: 16px;
+  }
+
+  .nContainer {
+    padding: 20px 0px;
+
+  }
+
+  .redes-sociales-home li {
+    list-style: none;
+    float: left;
+    margin-left: 11px;
+  }
+
+  .textoSeccion3 {
+    padding: 0px 5%;
+  }
 }
 
 /*Fin 320*/
@@ -643,12 +718,14 @@ body {
 /*Fin 425*/
 
 @media (min-width: 768px) {
-  .headerSpace{
+  .headerSpace {
     padding: 50px 0px;
   }
-  .noPaddingHeader{
-    padding:0;
+
+  .noPaddingHeader {
+    padding: 0;
   }
+
   .pad-form {
     padding-left: 25%;
     padding-right: 25%;
@@ -672,6 +749,7 @@ body {
   .footerRight {
     justify-content: end;
   }
+
   .links li a {
     font-size: 12px;
   }
@@ -679,7 +757,8 @@ body {
   .links li a:hover {
     font-size: 13px;
   }
-  .alineacionLinks{
+
+  .alineacionLinks {
     text-align: left;
     margin-bottom: 0px;
   }
@@ -687,30 +766,32 @@ body {
   .displayLogoFooter {
     justify-content: flex-start;
   }
+
   #linksHeaderChange {
     display: block;
     align-items: flex-start;
   }
 
-  .contentTitlePage{
+  .contentTitlePage {
     position: absolute;
   }
-  .nContainer{
-    padding:120px 0px 60px 0px;
+
+  .nContainer {
+    padding: 120px 0px 60px 0px;
   }
 
-  .redes-sociales-home li{
+  .redes-sociales-home li {
     margin-left: 25px;
   }
-  
-  .npMovil{
+
+  .npMovil {
     padding: 0px 0px;
   }
 
-  .textoSeccion3{
+  .textoSeccion3 {
     padding: 0px 32%;
   }
- 
+
 }
 
 
@@ -727,30 +808,33 @@ body {
     font-size: 13px;
   }
 
-  .links li a:hover {
+  .links li a:hover,
+  .links li a:focus {
     font-size: 13px;
   }
 
-  
 
-  .contentSuscripcion{
+
+  .contentSuscripcion {
     justify-content: none;
     /* align-items: center; */
     display: block;
     text-align: left;
   }
 
-  .tituleBannerPage h1{
+  .tituleBannerPage h1 {
     font-size: 49px;
   }
-  .descripcionBannerPage{
-    font-size: 19px;
-  }
-  .btnLeerMas{
-    font-size: 19px;
+
+  .descripcionBannerPage {
+    font-size: 16px;
   }
 
-  .contentTitlePage{
+  .btnLeerMas {
+    font-size: 16px;
+  }
+
+  .contentTitlePage {
     padding: 250px 15px 100px 15px;
   }
 
@@ -768,7 +852,8 @@ body {
     font-size: 15px;
   }
 
-  .links li a:hover {
+  .links li a:hover,
+  .links li a:focus {
     font-size: 15px;
   }
 
@@ -780,10 +865,11 @@ body {
   .linksFooter li a {
     font-size: 16px;
   }
-  .contentTitlePage{
+
+  .contentTitlePage {
     padding: 250px 140px 100px 120px;
   }
-  
+
 
 }
 
@@ -795,7 +881,8 @@ body {
     font-size: 16px;
   }
 
-  .links li a:hover {
+  .links li a:hover,
+  .links li a:focus {
     font-size: 16px;
   }
 
@@ -830,4 +917,9 @@ body {
   height: 20px;
   background-color: #e56302;
   outline: none;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: 60px;
+    left: 0;
+    width: 100%;
 }

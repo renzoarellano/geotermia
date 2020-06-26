@@ -1,4 +1,4 @@
-<footer class="colorFooter">
+<footer class="colorFooter col-12 col-md-12 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10 np">
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-4 col-lg-2 np displayLogoFooter">
@@ -57,7 +57,7 @@
       </div>
       <div class="col-12 col-md-7 col-lg-8 footerLeft np">
           &copy; Copyright 2020 - Energy Development Corporation | Términos y Condiciones<br>
-          Av. Manuel Olguín 335 Of 1301, Surco. Lima - Perú | E-mail: informes@edc.pe
+          Av. Manuel Olguín 335 Of 1301, Surco. Lima - Perú | E-mail: geo24.7peru@gmail.com
       </div>
       <div class="col-12 col-md-5 col-lg-4 footerRight">
         <div class="redes-sociales">

@@ -2,13 +2,15 @@ window.onscroll = function () { myFunction() };
 
 function myFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("changeHeader").className = "headerSpaceC";
+        document.getElementById("changeHeader").style.padding = "10px 0px";
+        document.getElementById("changeHeader").style.backgroundColor = "rgba(255, 255, 255, 0.9)";
         document.getElementById("linksHeaderChange").style.display = "flex";
         document.getElementById("linksHeaderChange").style.alignItems = "center";
         document.getElementById("logoHeader").style.maxWidth = "120px";
         //document.getElementById("LogoChange").className = "header-titlechange";
     } else {
-        document.getElementById("changeHeader").className = "headerSpace";
+        document.getElementById("changeHeader").style.padding = "50px 0px";
+        document.getElementById("changeHeader").style.backgroundColor = "transparent";
         if(document.body.clientWidth >= 768){
             document.getElementById("linksHeaderChange").style.alignItems = "flex-start";
         }else{
@@ -87,6 +89,11 @@ function cerrarNav(){
 /*Swiper Banner Home*/
 var swiper = new Swiper('.swiper-container-home', {
     loop: true,
+    effect:'fade',
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     pagination: {
         el: '.swiper-pagination',
         clickable: true,

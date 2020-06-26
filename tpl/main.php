@@ -1,1 +1,1 @@
-<div id="main"><?php include $view; ?></div>
+<div id="main" class="col-12 col-md-12 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10 np"><?php include $view; ?></div>
