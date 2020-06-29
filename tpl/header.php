@@ -23,16 +23,16 @@ switch (basename($_SERVER['PHP_SELF'])) {
 }
 ?>
 
-<header id="changeHeader" class="headerSpace col-12 np">
-  <div class="container noPaddingHeader">
+<header id="changeHeader" class="headerSpace col-md-12 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10 np">
+  <div class="container">
     <div class="row no-gutters">
-      <div class="col-6 col-md-4 col-lg-5 col-xl-6">
+      <div class="col-6 col-md-4 col-lg-4 col-xl-6">
       <a href="inicio.php">
         <img id="logoHeader" class="logo-responsive" src="app/img/logo.png" alt="Logo GeoTermia 24/7">
       </a>
       </div>
-      <div id="linksHeaderChange" class="nav col-6 col-md-8 col-lg-7 col-xl-6">
-        <div class=" d-none d-sm-none d-md-block d-lg-block col-lg-12 np">
+      <div id="linksHeaderChange" class="nav col-6 col-md-8 col-lg-8 col-xl-6">
+        <div class=" d-none d-sm-none d-md-none d-lg-block col-lg-12 np">
           <ul class="links">
             <li>
               <a <?= $inicio ?> href="inicio.php">
@@ -40,28 +40,28 @@ switch (basename($_SERVER['PHP_SELF'])) {
               </a>
             </li>
             <li>
-              <a <?= $geotermia ?> href="#">
+              <a <?= $geotermia ?> href="geotermia.php">
                 GEOTERMIA
               </a>
             </li>
             <li>
-              <a <?= $potencial ?> href="#">
+              <a <?= $potencial ?> href="potencial-peruano.php">
                 POTENCIAL PERUANO
               </a>
             </li>
             <li>
-              <a <?= $noticias ?> href="#">
+              <a <?= $noticias ?> href="noticias.php">
                 NOTICIAS
               </a>
             </li>
             <li>
-              <a <?= $contacto ?> href="#">
+              <a <?= $contacto ?> href="contacto.php">
                 CONTACTO
               </a>
             </li>
           </ul>
         </div>
-        <div class="d-block d-sm-block d-md-none d-lg-none d-xl-none  col-12 np">
+        <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none  col-12 np">
         <button name="SandwichButton" onclick="SandwichEffect()" class="bte2" id="btn2">
           <span id="lin1" class="spn12"></span>
           <span id="lin2" class="spn22"></span>
@@ -77,23 +77,20 @@ switch (basename($_SERVER['PHP_SELF'])) {
     <ul class="subnav-mobile">
       <li>
         <a <?= $inicio ?> href="inicio.php">
-          Inicio
+          INICIO
         </a>
       </li>
       <li>
-        <a <?= $nosotros ?> href="#">Quiénes Somos</a>
+        <a <?= $geotermia ?> href="geotermia.php">GEOTERMIA</a>
       </li>
       <li>
-        <a <?= $edc ?> href="#">EDC en Perú</a>
+        <a <?= $potencial ?> href="potencial-peruano.php">POTENCIAL PERUANO</a>
       </li>
       <li>
-        <a <?= $responsabilidad ?> href="#">Responsabilidad Social</a>
+        <a <?= $noticias ?> href="noticias.php">NOTICIAS</a>
       </li>
       <li>
-        <a <?= $noticias ?> href="#">Noticias</a>
-      </li>
-      <li>
-        <a <?= $contacto ?> href="#">Contacto</a>
+        <a <?= $contacto ?> href="contacto.php">CONTACTO</a>
       </li>
     </ul>
   </div>

@@ -1,17 +1,19 @@
 <section class="bannerSection col-12 np">
     <div class="col-12 col-md-6 contentTitlePage">
-        <div class="tituleBannerPage">
-            <h1>
-                ENERGÍA INFINITA
-            </h1>
-        </div>
-        <div class="descripcionBannerPage">
-            Promovemos la generación de energía eléctrica con geotermia
-        </div>
-        <div class="col-12 np positionLeerMas">
-            <a class="btnLeerMas" href="#">
-                Leer más
-            </a>
+        <div class="infoBanner">
+            <div class="tituleBannerPage">
+                <h1>
+                    ENERGÍA INFINITA
+                </h1>
+            </div>
+            <div class="descripcionBannerPage">
+                Promovemos la generación de energía eléctrica con geotermia
+            </div>
+            <div class="col-12 np positionLeerMas">
+                <a class="btnLeerMas" href="#">
+                    Leer más
+                </a>
+            </div>
         </div>
     </div>
     <div class="container nContainer">

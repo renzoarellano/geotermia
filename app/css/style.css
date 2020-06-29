@@ -8,27 +8,63 @@ body {
   padding-right: 0px;
 }
 
+.alignContent{
+  display: flex;
+  align-items: center;
+}
+.aligContentEnd{
+  display: flex;
+  align-items: flex-end;
+}
 
+.colorSection{
+  background-color: #ececec;
+}
+
+.paddingMidleSection{
+padding-top: 60px;
+}
+.spaceSection {
+  margin: 80px 0px;
+}
+
+.paddingSection{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.imgResponsive{
+  width: 100%;
+  margin:auto;
+}
+
+.lineSection{
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.fuenteTitle{
+  color: #898989;
+  font-size: 16px;
+  font-family: 'gotham_book';
+}
+.fuenteDataTitle{
+  color: #898989;
+  font-size: 16px;
+  font-family: 'gotham_book';
+  font-style: italic;
+}
+.detailFoto{
+  margin-top: 25px;
+}
 /*Header*/
 .headerSpace {
   width: 100%;
   padding: 50px 0px;
-  margin: auto;
   position: fixed;
   z-index: 99;
   background-color: transparent;
   transition: 0.6s all;
 }
 
-.headerSpaceC {
-  width: 100%;
-  padding: 10px 40px;
-  margin: auto;
-  position: fixed;
-  z-index: 99;
-  background-color: rgba(255, 255, 255, 0.9);
-  transition: 0.6s all;
-}
 
 .nav {
   transition: 0.6s all;
@@ -61,7 +97,7 @@ body {
 .links li {
   float: left;
   text-align: center;
-  margin: 10px 0px 10px 8px;
+  margin: 10px 12px 10px 8px;
 }
 
 .links li a {
@@ -204,7 +240,7 @@ body {
 .subnav-mobile li a:focus {
   text-decoration: none;
   color: #e56302;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
@@ -352,9 +388,12 @@ body {
   background-color: rgba(246, 246, 240, 0.9);
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  padding: 250px 140px 100px 120px;
   position: absolute;
   z-index: 98;
+    display: flex;
+    /* justify-content: end; */
+    align-items: flex-end;
+    padding-bottom: 80px;
 }
 
 .tituleBannerPage h1 {
@@ -601,6 +640,97 @@ body {
   font-family: 'gotham_book';
 }
 
+/*GEOTERMIA*/
+.extraColorTextBanner{
+  color: #838383;
+}
+
+.textoGeneralGeo p{
+  font-family: 'gotham_book';
+  font-size: 16px;
+  color: black;
+  text-align: justify;
+  margin: 0;
+}
+.titleGeneralGeo h1{
+  font-family: 'gotham_bold';
+  color: #e99912;
+  margin: 0;
+}
+.spaceTitle{
+  margin-bottom: 40px;
+  text-align: center;
+}
+.spaceTitleLeft{
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.subtitleGeo h2{
+  font-family: 'gotham_bold';
+  font-size: 26px;
+  margin: 0;
+  color: black;
+}
+.timeVideoGeo{
+  font-family: 'gotham_bold';
+  font-size: 16px;
+  margin: 10px 0px;
+  color: #e89300;
+}
+
+.imageGeoContainer{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 25px;
+  max-width: 330px;
+}
+.contentPlaceContainer{
+  text-align: center;
+}
+.imagePlace{
+  margin-bottom: 20px;
+}
+.namePlaceImage{
+  color: black;
+  font-family: 'gotham_bold';
+  font-size: 16px;
+}
+.typePlaceImage{
+  color: black;
+  font-family: 'gotham_book';
+  font-size: 16px;
+}
+.hrPlaceImage{
+  width: 40px;
+  height: 2px;
+  background-color:#fbb81a;
+  margin: auto;
+  margin-top: 30px;
+}
+.marginTextPlaceImage{
+  margin-top: 20px;
+}
+
+.correoContacto{
+  display: flex;
+  margin: 30px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.correoContacto img{
+  margin-right: 15px;
+}
+
+.correoContacto span{
+  color:black;
+  font-family: 'gotham_bold';
+  font-size: 18px;
+}
+
+
 /*Medias Querys*/
 @media (min-width: 320px) {
 
@@ -622,9 +752,11 @@ body {
   }
 
   .bannerBack {
-
-    min-height: 600px;
+    min-height: 230px;
     padding-left: 25px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .tituloBanner h1 {
@@ -668,7 +800,7 @@ body {
 
   .contentTitlePage {
     position: relative;
-    padding: 250px 15px 40px 15px;
+    height: 500px;
   }
 
   .tituleBannerPage h1 {
@@ -696,6 +828,14 @@ body {
 
   .textoSeccion3 {
     padding: 0px 5%;
+  }
+  .titleGeneralGeo h1{
+    font-size: 28px;
+  }
+
+  .columSectionGeo{
+    column-count: 1;
+    column-gap: 0px;
   }
 }
 
@@ -732,9 +872,7 @@ body {
   }
 
   .bannerBack {
-
     min-height: 750px;
-    padding-left: 80px;
   }
 
   .tituloBanner h1 {
@@ -774,6 +912,7 @@ body {
 
   .contentTitlePage {
     position: absolute;
+    height: 600px;
   }
 
   .nContainer {
@@ -790,6 +929,10 @@ body {
 
   .textoSeccion3 {
     padding: 0px 32%;
+  }
+
+  .titleGeneralGeo h1{
+    font-size: 36px;
   }
 
 }
@@ -813,6 +956,13 @@ body {
     font-size: 13px;
   }
 
+  .padRightGeo{
+    padding-right: 40px;
+  }
+  .padLeftGeo{
+    padding-left: 40px;
+  }
+
 
 
   .contentSuscripcion {
@@ -834,9 +984,11 @@ body {
     font-size: 16px;
   }
 
-  .contentTitlePage {
-    padding: 250px 15px 100px 15px;
+  .columSectionGeo{
+    column-count: 2;
+    column-gap: 60px;
   }
+
 
 }
 
@@ -849,26 +1001,22 @@ body {
   }
 
   .links li a {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .links li a:hover,
   .links li a:focus {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .bannerBack {
-    padding-left: 100px;
-    min-height: 950px;
+    min-height: 800px;
   }
 
   .linksFooter li a {
     font-size: 16px;
   }
 
-  .contentTitlePage {
-    padding: 250px 140px 100px 120px;
-  }
 
 
 }
@@ -878,12 +1026,12 @@ body {
 @media (min-width: 1400px) {
 
   .links li a {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .links li a:hover,
   .links li a:focus {
-    font-size: 16px;
+    font-size: 14px;
   }
 
 
