@@ -730,6 +730,68 @@ padding-top: 60px;
   font-size: 18px;
 }
 
+/*Noticias*/
+.hrNoticiaDestacada{
+  width: 30px;
+  height: 3px;
+  background-color: #fbb81a;
+  margin: 20px 0px;
+}
+.fechaNoticiaDestacada2{
+  color: black;
+  font-family: 'gotham_medium';
+  font-size: 14px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: flex-end;
+}
+.tituloNoticiaDestacada{
+  color: black;
+  font-family: 'gotham_bold';
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.descripcionNoticiaDestacada{
+  color: black;
+  font-family: 'gotham_book';
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.calendarIcon{
+  margin-right: 10px;
+}
+.imagenNoticia2{
+  margin-bottom: 25px;
+}
+.tituloNoticia2{
+  color: black;
+  font-family: 'gotham_bold';
+  font-size: 18px;
+  height: 90px;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    overflow: hidden;
+}
+.noticiaContainer{
+  max-width: 370px;
+  height: 395px;
+  margin: 20px 0px;
+}
+.noticiaContainer a{
+  text-decoration: none;
+}
+.alignButtons{
+  text-align: right;
+  margin-top: 25px;
+}
+.noticiasButton{
+  background: transparent;
+  border: 0;
+  margin: 5px 10px;
+  padding: 0px;
+}
+
 
 /*Medias Querys*/
 @media (min-width: 320px) {
